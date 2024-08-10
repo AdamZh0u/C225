@@ -5,6 +5,9 @@
     },
     {
       "path": "./01_basic"
+    },
+    {
+      "path": "./10_d3"
     }
   ],
   "settings": {

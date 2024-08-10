@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Network and Adjacency Matrix Visualization</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    svg {
+      border: 1px solid black;
+    }
+
+    .matrix-cell {
+      stroke: #ccc;
+    }
+
+    .matrix-cell text {
+      font-size: 10px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+
+<body>
+  <svg id="network" width="400" height="400"></svg>
+  <svg id="matrix" width="400" height="400"></svg>
+
+  <script src="networkMatrix.js">
+  </script>
+</body>
+
+</html>
